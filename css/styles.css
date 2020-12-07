@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title, #about-me, #contact-me, #education {
+  background-color: #ff414d;
+}
+
+.value {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.navbar {
+  background-color: #ff414d;
+  padding: 0rem 0rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.pcd {
+  font-size: 1.5rem;
+  line-height: 2.0;
+  color: white;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.top-section1 {
+  /* margin: 20%; */
+  padding: 5%;
+  border: 2px solid pink;
+}
+
+.navbar-nav {
+  padding: 1% 3%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+}
+
+.working {
+  width: 35%;
+  margin-left: 30%;
+}
+
+.skill-h1, .education-h1 {
+  text-align: center;
+  color: grey;
+  margin-top: 3%;
+}
+
+.education-h1 {
+  color: white;
+}
+
+.priyanshu_img {
+  margin-left: 25%;
+}
+
+.resume_img {
+  /* width: 35%;
+  margin-left: 25%; */
+  width: 27%;
+  margin-left: 34%;
+}
+
+.about-h1 {
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.mine1 {
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 4%;
+}
+
+.btn:hover {
+  background: #e8e8e8;
+  background-image: -webkit-linear-gradient(top, #222831, #fff);
+  background-image: -moz-linear-gradient(top, #222831, #fff);
+  background-image: -ms-linear-gradient(top, #222831, #fff);
+  background-image: -o-linear-gradient(top, #222831, #fff);
+  background-image: linear-gradient(to bottom, #222831, #fff);
+  text-decoration: none;
+}
+
+.btn {
+  background: #f4eeed;
+  background-image: -webkit-linear-gradient(top, #f4eeed, #a2cfeb);
+  background-image: -moz-linear-gradient(top, #f4eeed, #a2cfeb);
+  background-image: -ms-linear-gradient(top, #f4eeed, #a2cfeb);
+  background-image: -o-linear-gradient(top, #f4eeed, #a2cfeb);
+  background-image: linear-gradient(to bottom, #f4eeed, #a2cfeb);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: Georgia;
+  color: #573357;
+  border: none;
+  transition: all 0.7s;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#resume-button {
+  margin: 21%;
+  margin-left: 96px;
+}
+
+#github-button {
+  margin-left: 96px;
+}
+
+.img-github {
+    width: 28%;
+    margin-left: 36%;
+}
+
+.projects-h1 {
+  text-align: center;
+  color: grey;
+}
+
+#projects {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  width: 100px;
+  top: 55px;
+  right: 536px;
+}
+
+#Resume {
+  position: relative;
+}
+
+.years {
+  line-height: 2.3;
+}
+
+.school {
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+.schoolpic {
+  /* width: 76%;
+    margin-top: -13%; */
+  width: 68%;
+  margin-left: 28%;
+  margin-top: -8%;
+  background-color: white;
+  border-radius: 64%;
+}
+
+.contact-h1 {
+  text-align: center;
+}
+
+.icons {
+  width: 27px;
+  padding: 3px;
+  border: 1px solid white;
+  margin: 5px;
+}
+
+.navbar-dark .navbar-brand {
+  margin-bottom: 2%;
+}
+
+h4{
+  color: white;
+}
+
+@media (max-width: 360px) {
+  .priyanshu_img {
+    margin-left: 11%;
+    margin-bottom: 9%;
+  }
+  .schoolpic{
+    margin-left: 14%;
+margin-top: 5%;
+margin-bottom: 2%;
+  }
+  .resume_img {
+    width: 44%;
+    margin-left: 23%;
+}
+.img-github {
+    width: 40%;
+    margin-left: 27%;
+}
+.edu{
+  font-size: 20px;
+}
+}
+@media screen and (max-width: 480px) and (min-width: 300px){
+  .resume_img{
+      width: 44%;
+      margin-left: 24%;
+  }
+  .priyanshu_img {
+    margin-left: 17%;
+    margin-bottom: 4%;
+}
+.schoolpic {
+    width: 74%;
+    margin-left: 14%;
+    margin-top: 7%;
+    margin-bottom: 9%;
+}
+.img-github {
+    width: 44%;
+    margin-left: 28%;
+}
+}
+@media screen and (min-width: 480px) and (max-width: 767px)
+{
+  .schoolpic{
+
+    margin-left: 17%;
+    margin-top: 6%;
+    margin-bottom: 5%;
+  }
+  .priyanshu_img{
+    margin-bottom: 4%;
+margin-left: 30%;
+  }
+  .resume_img {
+    width: 38%;
+    margin-left: 27%;
+}
+.img-github {
+    width: 40%;
+    margin-left: 30%;
+}
+.working {
+    width: 23%;
+    margin-left: 41%;
+}
+}
+
+@media screen and (min-width: 767px) and (max-width : 991px)
+{
+.priyanshu_img {
+margin-left: 36%;
+margin-bottom: 5%;
+}
+.resume_img {
+    width: 32%;
+    margin-left: 31%;
+    margin-bottom: 4%;
+}
+.schoolpic {
+  margin-left: 22%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  width: 49%;
+}
+.img-github {
+    width: 33%;
+    margin-left: 33%;
+}
+
+
+.working {
+width: 22%;
+margin-left: 17%;
+margin-bottom: 7%;
+}
+}
+@media screen and (min-width: 991px)
+{
+  h3{
+    font-size: 1.3rem;
+  }
+}
