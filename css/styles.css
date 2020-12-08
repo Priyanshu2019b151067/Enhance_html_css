@@ -255,6 +255,11 @@ margin-bottom: 2%;
       width: 44%;
       margin-left: 24%;
   }
+  .working {
+    width: 35%;
+    margin-left: 32%;
+    margin-bottom: 5%;
+}
   .priyanshu_img {
     margin-left: 17%;
     margin-bottom: 4%;
@@ -293,6 +298,7 @@ margin-left: 30%;
 .working {
     width: 23%;
     margin-left: 41%;
+    margin-bottom: 5%;
 }
 }
 
